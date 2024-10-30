@@ -8,7 +8,6 @@ buttons.forEach((item) => {
         } else if (item.id == "%") {
             let string = display.innerText.toString();
             display.innerText =(display.innerText/100);
-            // display.innerText = string.substr(0, string.length - 1);
         } else if (display.innerText != "" && item.id == "equal") {
             display.innerText = eval(display.innerText);
         } else if (display.innerText == "" && item.id == "equal") {
